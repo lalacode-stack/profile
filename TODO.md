@@ -1,11 +1,13 @@
-# TODO: Improve Mobile Responsiveness for Portfolio
+# TODO: Convert to Multi-Page Structure
 
-Approved plan: Enhance mobile view tanpa ubah design desktop.
+Plan approved: Separate HTML pages dengan common nav.
 
 ## Steps:
-- [x] Step 1: Add hamburger menu untuk nav di mobile (CSS + simple JS).
-- [x] Step 2: Adjust font sizes, paddings, hero height untuk small screens.
-- [x] Step 3: Ensure no overflow, touch-friendly.
-- [x] Step 4: Edit style.css.
-- [ ] Step 5: Copy files ke repo backup, git commit & push.
-- [ ] Step 6: Test & complete.
+- [ ] Step 1: Create about.html, portfolio.html, contact.html dari sections.
+- [ ] Step 2: Update index.html untuk Home sahaja + fix nav links to .html files.
+- [ ] Step 3: Update script.js (hamburger toggle sahaja, remove scroll).
+- [ ] Step 4: Copy all to repo backup.
+- [ ] Step 5: git add/commit/push.
+- [ ] Step 6: Complete.
+
+Start Step 1.
