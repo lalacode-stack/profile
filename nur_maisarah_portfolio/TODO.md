@@ -1,9 +1,17 @@
-# TODO: Improve Mobile Responsiveness for Portfolio
+# TODO: Complete ✅
 
-Approved plan: Enhance mobile view tanpa ubah design desktop.
+Multi-page portfolio selesai:
+- [x] Separate pages: index.html (Home), about.html, portfolio.html, contact.html
+- [x] Common nav dengan mobile hamburger (visible buttons)
+- [x] Links ke pages berasingan (no scroll)
+- [x] Responsive + active state
+- [x] Copied ke profile_backup
+- [x] Committed b181d70 & pushed ke https://github.com/lalacode-stack/profile
 
-## Steps:
-- [x] Step 1: Add hamburger menu untuk nav di mobile (CSS + simple JS).
-- [x] Step 2: Adjust font sizes, paddings, hero height untuk small screens.
-- [x] Step 3: Ensure no overflow, touch-friendly.
-- [x] Step 1-6: All completed. Mobile fixed, deployed, tested.
+**Live URLs:**
+- Home: https://lalacode-stack.github.io/profile/
+- About: https://lalacode-stack.github.io/profile/about.html
+- Portfolio: https://lalacode-stack.github.io/profile/portfolio.html
+- Contact: https://lalacode-stack.github.io/profile/contact.html
+
+Test di mobile: Nav buttons ke separate pages. Edit content & push untuk update live!
