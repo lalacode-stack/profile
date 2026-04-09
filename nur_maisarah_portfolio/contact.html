@@ -13,12 +13,12 @@
             <div class="logo">
                 <h2>NUR MAISARAH</h2>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul class="nav-menu">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
@@ -35,22 +35,42 @@
         </div>
     </nav>
 
-    <section class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Get in touch with me!</p>
-            <div class="contact-info">
-                <p><strong>Email:</strong> nur.maisarah@example.com</p>
-                <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/nurmaisarah</a></p>
+    <main class="page-content">
+        <section class="contact-hero">
+            <div class="contact-card">
+                <h2>HUBUNGI</h2>
+                <p>Based in Malaysia</p>
+                <p><a href="mailto:nur.maisarah@example.com">nur.maisarah@example.com</a></p>
+                <div class="contact-social">
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0H5C3.34 0 2 1.34 2 3v18c0 1.66 1.34 3 3 3h14c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3zM8.34 20.5H5.67V9.5h2.67v11zm-1.34-12.8c-.85 0-1.53-.7-1.53-1.56 0-.86.68-1.56 1.53-1.56s1.53.7 1.53 1.56c0 .86-.68 1.56-1.53 1.56zM20 20.5h-2.66v-5.49c0-1.31-.02-3-1.83-3-1.84 0-2.12 1.43-2.12 2.91v5.58H10.7V9.5h2.55v1.5h.04c.36-.69 1.24-1.42 2.56-1.42 2.74 0 3.25 1.86 3.25 4.28v6.64z"/></svg>
+                    </a>
+                    <a href="mailto:nur.maisarah@example.com" aria-label="Email">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.01L12 13l8-6.99V6H4zm16 12V8l-8 7-8-7v10h16z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Dribbble">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.8 6.48a7.85 7.85 0 0 1-2.73-.1 18.8 18.8 0 0 0-.9-1.67 7.96 7.96 0 0 1 3.63 1.77zm-5.1-2.2c.34.47.82 1.17 1.29 2.03a7.83 7.83 0 0 1-3.67.5l-1.1-2.55a8.04 8.04 0 0 1 3.48-.02zM8.4 5.4l1.08 2.5a7.9 7.9 0 0 1-3.96 2.1A8.05 8.05 0 0 1 8.4 5.4zm-4 6.6c0-.2 0-.4.02-.6a9.5 9.5 0 0 0 4.97-2.53l.9 2.08a19.2 19.2 0 0 0-4.1 4.6A7.96 7.96 0 0 1 4.4 12zm2.4 4.9a17.5 17.5 0 0 1 3.6-4.05c.12.3.24.62.35.95.52 1.6.9 3.24 1.1 4.88a7.97 7.97 0 0 1-5.05-1.78zm6.6 2.03c-.2-1.52-.56-3.05-1.05-4.54-.07-.2-.13-.4-.2-.6.83-.12 1.7-.1 2.55.08 1.24.26 2.43.8 3.45 1.55a7.96 7.96 0 0 1-4.75 3.5zm5.35-4.96a9.83 9.83 0 0 0-3.16-1.48 8.8 8.8 0 0 0-2.3-.17c-.14-.4-.3-.78-.48-1.17a9.4 9.4 0 0 0 3.67-.72c.27-.1.53-.22.78-.35a8.02 8.02 0 0 1 1.5 3.89z"/></svg>
+                    </a>
+                </div>
+
+                <form class="contact-form" action="mailto:nur.maisarah@example.com" method="post" enctype="text/plain">
+                    <div class="form-field">
+                        <label for="name">Nama</label>
+                        <input id="name" name="Name" type="text" placeholder="Masukkan nama anda" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input id="email" name="Email" type="email" placeholder="email@contoh.com" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Mesej</label>
+                        <textarea id="message" name="Message" placeholder="Tulis mesej anda di sini" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button secondary">Hantar Terus ke Email</button>
+                </form>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 NUR MAISARAH. All rights reserved.</p>
